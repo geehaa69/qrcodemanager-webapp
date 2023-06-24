@@ -1,0 +1,1 @@
+# qrcodemanager-webapp
