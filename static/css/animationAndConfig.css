@@ -1,0 +1,29 @@
+/* USER INPUT */
+.container .input-section .user-input:focus {
+  outline: none;
+}
+
+/* NAVBAR ON ACTIVE */
+.container .navbar .active {
+  color: black;
+  background-color: var(--primary-button-soft);
+}
+
+/* BUTTON CONFIGURATION */
+button {
+  font-family: "nunito-medium", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+
+  padding: 0.15em 0.7em;
+  border-radius: 1em;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: var(--primary-button);
+}
+
+/* BUTTON CREATE */
+button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid var(--primary-button);
+}

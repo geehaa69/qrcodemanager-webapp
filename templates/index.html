@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/Nunito/font-nunito.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animationAndConfig.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mobileView.css') }}" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>QRCODE MANAGER</title>
+  </head>
+  <body>
+    <!-- title section -->
+    <div class="main-title">
+      <h1>QRCODE <span>MANAGER</span></h1>
+      <p>~ make your life easier with qrcode manager ~</p>
+    </div>
+
+    <!-- container section -->
+    <div class="container">
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <div class="create-nav active">CREATE</div>
+        <div class="scanner-nav">SCANNER</div>
+      </div>
+
+      <section class="content-container">
+        <!-- CREATE CONTAINER -->
+        <div class="create-container">
+          <div class="input-section">
+            <span class="placeholder">input your content here..</span>
+            <div id="userInput" class="user-input" contenteditable="true" autofocus /></div>
+            <button class="btn-create">create</button>
+          </div>
+          <div class="result-section">
+            <p>customize your result here</p>
+            <div class="result" id="result"></div>
+            <div class="customize">
+              <input type="color" value="#000000" class="input-clr" id="fill-clr"/>
+              <input type="color" value="#ffffff" class="input-clr" id="bg-clr" />
+              <label for="fill-clr">fill</label>
+              <label for="bg-clr">background</label>
+            </div>
+            <button>download</button>
+          </div>
+        </div>
+
+        <!-- SCANNER CONTAINER -->
+        <div class="scanner-container">
+          <p>Sorry, this feature is currently under development</p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <h3>QRCODE MANAGER</h3>
+        <p>This application was created to make it easier to create and manage your qrcode</p>
+        <ul class="socials">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;2023 qrcodemanager. designed by <span>GHSTUDIO</span></p>
+      </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+  </body>
+</html>

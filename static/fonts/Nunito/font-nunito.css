@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "nunito-light";
+  src: url("Nunito-Light.woff2") format("woff2"), url("Nunito-Light.woff") format("woff"), url("Nunito-Light.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "nunito-regular";
+  src: url("Nunito-Regular.woff2") format("woff2"), url("Nunito-Regular.woff") format("woff"), url("Nunito-Regular.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "nunito-medium";
+  src: url("static/Nunito-Medium.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "nunito-semibold";
+  src: url("static/Nunito-SemiBold.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "nunito-bold";
+  src: url("static/Nunito-Bold.ttf") format("TrueType");
+}
