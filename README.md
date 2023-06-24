@@ -23,3 +23,5 @@ perbaikan yang belum diselesaikan:
 LINK: https://app.qrcodemanager.geehaa.my.id/
 
 BERIKUT INI PREVIEW DARI QRCODE MANAGER WEB APP
+![QRCODE-MANAGER (2)](https://github.com/geehaa69/qrcodemanager-webapp/assets/101494015/d07ee6f6-3218-4562-8bcf-7c6ae4bed6e2)
+
